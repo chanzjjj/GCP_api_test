@@ -1,0 +1,109 @@
+
+
+test_01:
+-
+  - activity_type: "invite"
+    country_code: "ID"
+  - code: 0
+    activity_id: "1"
+-
+  - activity_type: ""
+    country_code: "ID"
+  - code: 500
+    message: "field activity_type is not set"
+-
+  - activity_type: "invite"
+    country_code: ""
+  - code: 0
+    activity_id: "1"
+-
+  - activity_type: "abc"
+    country_code: "ID"
+  - code: 9999
+    message: "sql: no rows in result set"
+
+
+test_02:
+-
+  - activity_id: 1
+  - code: 0
+    records: [
+                {
+                "inviter_name": " Adi Kevin Aldian",
+                "inviter_avatar": "",
+                "invitee_name": " Christian Sutrisno Dufay",
+                "invitee_avatar": "",
+                "reward": 10000,
+                "currency": "IDR",
+                "invite_success_at": 1624260653
+            }]
+-
+  - activity_id:
+  - code: 500
+    message: "field activity_id is not set"
+
+
+test_03:
+-
+  - activity_id: "1"
+  - code: 0
+-
+  - activity_id:
+  - code: 500
+    message: "field activity_id is not set"
+
+
+test_04:
+-
+  - __userId: 10247
+  - code: 0
+    referral_code: "L72UDX"
+-
+  - __userId:
+  - code: 9999
+    message: "rpc error: code = Unknown desc = sql: no rows in result set"
+
+
+test_05:
+-
+  - __userId: 10247
+    activity_id: 1
+  - code: 0
+    records: []
+-
+  - __userId:
+    activity_id: 1
+  - code: 500
+    message: "no user id specified"
+-
+  - __userId: 10247
+    activity_id:
+  - code: 9999
+    message: "activity_type or  activity_id must be specified"
+
+
+test_06:
+-
+  - country_code: "VN"
+    __userId: 10247
+    activity_type: "invite"
+  - code: 0
+    message: "success"
+-
+  - country_code: ""
+    __userId: 10247
+    activity_type: "invite"
+  - code: 0
+    message: "success"
+-
+  - country_code: ""
+    __userId:
+    activity_type: "invite"
+  - code: 0
+    message: "success"
+-
+  - country_code: ""
+    __userId: 10247
+    activity_type: ""
+  - code: 9999
+    message: "must specify activity type"

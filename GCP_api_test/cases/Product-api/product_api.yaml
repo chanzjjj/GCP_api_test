@@ -1,0 +1,230 @@
+
+
+test_01:
+-
+  - query: "iphone"
+  - code: 0
+    sv: 0
+-
+  - query: ""
+  - code: 500
+    message: "field query is not set"
+-
+  - query: "123456"
+  - code: 0
+    sv: 0
+
+
+test_02:
+-
+  - productId: "7553394"
+  - code: 0
+    productId: 7553394
+
+
+test_04:
+-
+  - __pname: "package:com.gcpcard.dev"
+  - code: 0
+    records: [{"keyword": "iPhone","logId": "hot_search1"}]
+-
+  - __pname: ""
+  - code: 0
+    records: [{"keyword": "iPhone","logId": "hot_search1"}]
+
+
+test_05:
+-
+  - pageIndex: 1
+    pageSize: 20
+    categoryId: 59
+  - code: 0
+    sv: 0
+-
+  - pageIndex:
+    pageSize: 20
+    categoryId: 59
+  - code: 0
+    sv: 0
+-
+  - pageIndex: 1
+    pageSize:
+    categoryId: 59
+  - code: 0
+    sv: 0
+-
+  - pageIndex: 1
+    pageSize: 20
+    categoryId:
+  - code: 0
+    sv: 0
+-
+  - pageIndex: "abc"
+    pageSize: 20
+    categoryId: 59
+  - code: 500
+    message: "cannot parsed as int"
+-
+  - pageIndex: 1
+    pageSize: "abc"
+    categoryId: 59
+  - code: 500
+    message: "cannot parsed as int"
+-
+  - pageIndex: 1
+    pageSize: 20
+    categoryId: "abc"
+  - code: 0
+    sv: 0
+
+
+test_06:
+-
+  - __userId: "10003"
+  - code: 0
+    sv: 0
+-
+  - __userId:
+  - code: 0
+    sv: 0
+
+
+test_07:
+-
+  - pageIndex: 1
+    pageSize: 20
+  - code: 0
+    sv: 0
+-
+  - pageIndex:
+    pageSize: 20
+  - code: 0
+    sv: 0
+-
+  - pageIndex: 1
+    pageSize:
+  - code: 0
+    sv: 0
+-
+  - pageIndex: "abc"
+    pageSize: 20
+  - code: 500
+    message: "cannot parsed as int"
+-
+  - pageIndex: 1
+    pageSize: "abc"
+  - code: 500
+    message: "cannot parsed as int"
+
+
+test_08:
+-
+  - __userId: "10003"
+  - code: 0
+    sv: 0
+-
+  - __userId: ""
+  - code: 0
+    sv: 0
+
+
+test_09:
+-
+  - id: 1234
+  - code: 0
+    sv: 0
+-
+  - id: "abc"
+  - code: 500
+    message: "cannot parsed as int"
+-
+  - id:
+  - code: 0
+    sv: 0
+
+
+test_11:
+-
+  - id: "143"
+    pageIndex: 1
+    pageSize: 20
+  - code: 0
+    sv: 0
+-
+  - id: "143"
+    pageIndex:
+    pageSize: 20
+  - code: 0
+    sv: 0
+-
+  - id: "143"
+    pageIndex: 1
+    pageSize:
+  - code: 0
+    sv: 0
+-
+  - id: "143"
+    pageIndex: "abc"
+    pageSize: 20
+  - code: 500
+    message: "cannot parsed as int"
+-
+  - id: "143"
+    pageIndex: 1
+    pageSize: "abc"
+  - code: 500
+    message: "cannot parsed as int"
+
+
+test_12:
+-
+  - id: 1234
+  - code: 0
+    sv: 0
+-
+  - id: "abc"
+  - code: 500
+    message: "cannot parsed as int"
+-
+  - id:
+  - code: 0
+    sv: 0
+
+
+test_14:
+-
+  - __userId: "10247"
+    pageIndex: 1
+    pageSize: 20
+    status: 1
+  - code: 0
+-
+  - __userId: ""
+    pageIndex: 1
+    pageSize: 20
+    status: 1
+  - code: 9999
+    message: "check_accessToken_fail"
+-
+  - __userId: "10247"
+    pageIndex:
+    pageSize: 20
+    status: 1
+  - code: 500
+    message: "field pageIndex is not set"
+-
+  - __userId: "10247"
+    pageIndex: 1
+    pageSize:
+    status: 1
+  - code: 500
+    message: "field pageSize is not set"
+-
+  - __userId: "10247"
+    pageIndex: 1
+    pageSize: 20
+    status:
+  - code: 500
+    message: "field status is not set"
+
+

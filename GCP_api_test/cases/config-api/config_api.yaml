@@ -1,0 +1,63 @@
+
+
+test_01:
+-
+  - __guestId: "ON5DQCGUHQWGLJR4"
+    __platform: "android"
+    __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+  - code: 0
+    configs: [
+              {
+                "key": "customer_service",
+                "value": "Xin chào, số thẻ của tôi là  %s , tôi muốn mở đóng băng số dư của tôi",
+                "description": "客服携带文案"
+              }]
+-
+  - __guestId: ""
+    __platform: "android"
+    __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+  - code: 0
+    configs: [
+              {
+                "key": "customer_service",
+                "value": "Xin chào, số thẻ của tôi là  %s , tôi muốn mở đóng băng số dư của tôi",
+                "description": "客服携带文案"
+              }]
+-
+  - __guestId: "ON5DQCGUHQWGLJR4"
+    __platform: ""
+    __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+  - code: 0
+    configs: [
+              {
+                "key": "customer_service",
+                "value": "Xin chào, số thẻ của tôi là  %s , tôi muốn mở đóng băng số dư của tôi",
+                "description": "客服携带文案"
+              }]
+-
+  - __guestId: "ON5DQCGUHQWGLJR4"
+    __platform: "android"
+    __userId: ""
+    __pname: "package:com.gcpcard.dev"
+  - code: 0
+    configs: [
+              {
+                "key": "customer_service",
+                "value": "Xin chào, số thẻ của tôi là  %s , tôi muốn mở đóng băng số dư của tôi",
+                "description": "客服携带文案"
+              }]
+-
+  - __guestId: "ON5DQCGUHQWGLJR4"
+    __platform: "android"
+    __userId: "10247"
+    __pname: ""
+  - code: 0
+    configs: [
+              {
+                "key": "customer_service",
+                "value": "Xin chào, số thẻ của tôi là  %s , tôi muốn mở đóng băng số dư của tôi",
+                "description": "客服携带文案"
+              }]

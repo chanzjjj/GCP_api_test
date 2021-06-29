@@ -1,0 +1,405 @@
+
+test_01:
+-
+  - __pname: "package:com.gcpcard.dev"
+    __platform: "ios"
+  - code: 0
+    guestId: str
+-
+  - __pname: ""
+    __platform: "ios"
+  - code: 0
+    guestId: str
+-
+  - __pname: "package:com.gcpcard.dev"
+    __platform: ""
+  - code: 0
+    guestId: str
+-
+  - __pname: "123456"
+    __platform: "ios"
+  - code: 0
+    guestId: str
+-
+  - __pname: "package:com.gcpcard.dev"
+    __platform: "123456"
+  - code: 0
+    guestId: str
+
+
+test_02:
+-
+  - __pname: "package:com.gcpcard.dev"
+    __platform: "ios"
+  - ABIANSEMAL: ["80352"]
+-
+  - __pname: ""
+    __platform: "ios"
+  - ABIANSEMAL: ["80352"]
+-
+  - __pname: "package:com.gcpcard.dev"
+    __platform: ""
+  - ABIANSEMAL: ["80352"]
+-
+  - __pname: "123456"
+    __platform: "ios"
+  - ABIANSEMAL: ["80352"]
+-
+  - __pname: "package:com.gcpcard.dev"
+    __platform: "123456"
+  - ABIANSEMAL: ["80352"]
+
+
+test_03:
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: ""
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 9999
+-
+  - __userId: "10247"
+    __pname: ""
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: ""
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: ""
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: ""
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: ""
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: ""
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: ""
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 500
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: ""
+    contact: "123456789"
+    content: "aaaaaa"
+  - code: 0
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: ""
+    content: "aaaaaa"
+  - code: 500
+-
+  - __userId: "10247"
+    __pname: "package:com.gcpcard.dev"
+    __platform: "Android"
+    __guestId: "ON5DQCGUHQWGLJR4"
+    __v: "1.0.21"
+    __sysver: "10"
+    __model: "Redmi 9A"
+  - type: "bug"
+    pics: "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp"
+    contact: "123456789"
+    content: ""
+  - code: 500
+
+
+
+test_04:
+-
+  - thirdUserId: "156825156459002"
+    thirdToken: "EAAF4xRj87aMBACD6kKjruu4FATmUtNgGrs1hKqWZAMiWvLmsvgJXhf6z0Ezrgo2l76XtxCJsX30m0hrp0LVPkeHhvIkJXkxbJUkssvxl7ZCsBRPSpabtYK2btNgSmQOCOWRlMxa6U9aZCBlqTOhTw4ZB1cJ88kDdCgtZBpnplPsq0TijAZBcAF031YZBbQG12mqYZAAqfm5RQpCzZARwEqTgEaRAmMl74L1NTQkjjttNmpQZDZD"
+  - code: 0
+    userId: 10247
+-
+  - thirdUserId: ""
+    thirdToken: "EAAF4xRj87aMBACD6kKjruu4FATmUtNgGrs1hKqWZAMiWvLmsvgJXhf6z0Ezrgo2l76XtxCJsX30m0hrp0LVPkeHhvIkJXkxbJUkssvxl7ZCsBRPSpabtYK2btNgSmQOCOWRlMxa6U9aZCBlqTOhTw4ZB1cJ88kDdCgtZBpnplPsq0TijAZBcAF031YZBbQG12mqYZAAqfm5RQpCzZARwEqTgEaRAmMl74L1NTQkjjttNmpQZDZD"
+  - code: 500
+    message: "field thirdUserId is not set"
+-
+  - thirdUserId: "156825156459002"
+    thirdToken: ""
+  - code: 500
+    message: "field thirdToken is not set"
+
+
+test_05:
+-
+  - __userId: "10072"
+    name: "ace"
+    address: "guangzhou"
+    phone: "133233232"
+    country: "china"
+  - code: 0
+-
+  - __userId: ""
+    name: "ace"
+    address: "guangzhou"
+    phone: "133233232"
+    country: "china"
+  - code: 0
+    message: "field name is not set"
+-
+  - __userId: "10072"
+    name: ""
+    address: "guangzhou"
+    phone: "133233232"
+    country: "china"
+  - code: 500
+    message: "field name is not set"
+-
+  - __userId: "10072"
+    name: "ace"
+    address: ""
+    phone: "133233232"
+    country: "china"
+  - code: 500
+    message: "field address is not set"
+-
+  - __userId: "10072"
+    name: "ace"
+    address: "guangzhou"
+    phone: ""
+    country: "china"
+  - code: 500
+    message: "field phone is not set"
+-
+  - __userId: "10072"
+    name: "ace"
+    address: "guangzhou"
+    phone: "133233232"
+    country: ""
+  - code: 500
+    message: "field country is not set"
+
+
+test_06:
+-
+  - __userId: "10247"
+    cardNum: "30110000222"
+    activeCode: "1325"
+    phone: "11111"
+  - code: 9999
+    message: "user_has_actived_vip_card"
+-
+  - __userId: ""
+    cardNum: "30110000222"
+    activeCode: "1325"
+    phone: "11111"
+  - code: 9999
+    message: "check_accessToken_fail"
+-
+  - __userId: "10247"
+    cardNum: ""
+    activeCode: "1325"
+    phone: "11111"
+  - code: 500
+    message: "field cardNum is not set"
+-
+  - __userId: "10247"
+    cardNum: "30110000222"
+    activeCode: ""
+    phone: "11111"
+  - code: 500
+    message: "field activeCode is not set"
+-
+  - __userId: "10247"
+    cardNum: "30110000222"
+    activeCode: "1325"
+    phone: ""
+  - code: 500
+    message: "field phone is not set"
+
+
+test_08:
+-
+  - __userId: 10239
+    productId: 500001
+  - code: 0
+-
+  - __userId: 0
+    productId: 500001
+  - code: 0
+-
+  - __userId: 10239
+    productId:
+  - code: 500
+    message: "field productId is not set"
+
+
+test_09:
+-
+  - __userId: "10239"
+  - code: 0
+    total: 6
+-
+  - __userId: ""
+  - code: 0
+    total: 6
+
+
+test_10:
+-
+  - __userId: "10239"
+    productId: "500001"
+  - code: 0
+-
+  - __userId: ""
+    productId: "500001"
+  - code: 0
+-
+  - __userId: "10239"
+    productId: ""
+  - code: 500
+    message: "field productId is not set"
+
+
+test_11:
+-
+  - __userId: "10239"
+    productId: "500001"
+  - code: 0
+    isWished: False
+-
+  - __userId: ""
+    productId: "500001"
+  - code: 0
+    isWished: False
+-
+  - __userId: "10239"
+    productId: ""
+  - code: 500
+    message: "field productId is not set"
+
+
+test_12:
+-
+  - __userId: 10247
+  - code: 0
+-
+  - __userId: ""
+  - code: 9999
+    message: "check_accessToken_fail"
+-
+  - __userId: "abcd"
+  - code: 9999
+    message: "check_accessToken_fail"
+
+
+test_13:
+-
+  - __userId: 10247
+  - code: 0
+-
+  - __userId: ""
+  - code: 9999
+    message: "check_accessToken_fail"
+-
+  - __userId: "abcd"
+  - code: 9999
+    message: "check_accessToken_fail"

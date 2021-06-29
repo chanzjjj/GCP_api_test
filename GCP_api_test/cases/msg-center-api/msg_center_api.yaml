@@ -1,0 +1,11 @@
+
+
+test_01:
+-
+  - __userId: 10247
+  - code: 0
+    records: [{"id": "714"}]
+-
+  - __userId:
+  - code: 9999
+    message: "check_accessToken_fail"

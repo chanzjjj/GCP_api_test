@@ -1,0 +1,22 @@
+
+test_01:
+-
+  - __pname: "com.gcpcard.vn"
+    __platform: "ios"
+  - code: 0
+-
+  - __pname: ""
+    __platform: "ios"
+  - code: 0
+-
+  - __pname: "com.gcpcard.vn"
+    __platform: ""
+  - code: 0
+-
+  - __pname: 123456
+    __platform: ios
+  - code: 0
+-
+  - __pname: com.gcpcard.vn
+    __platform: 123456
+  - code: 0

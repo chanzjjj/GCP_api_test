@@ -1,0 +1,97 @@
+
+
+test_01:
+-
+  - __userId: 10247
+  - code: 0
+    balance: 930
+-
+  - __userId: abc
+  - code: 500
+    message: "cannot parsed as int"
+
+
+test_04:
+-
+  - __userId: 10247
+    amount: 10
+  - code: 0
+-
+  - __userId:
+    amount: 10
+  - code: 9999
+    message: "check_accessToken_fail"
+-
+  - __userId: 10247
+    amount:
+  - code: 500
+    message: "field amount is not set"
+-
+  - __userId: "abc"
+    amount: 10
+  - code: 9999
+    message: "check_accessToken_fail"
+-
+  - __userId: "abc"
+    amount: 10
+  - code: 9999
+    message: "check_accessToken_fail"
+
+
+test_05:
+-
+  - __userId: 10247
+    pageIndex: 1
+    pageSize: 20
+  - code: 0
+    records: ["amount": "Rp10"]
+-
+  - __userId:
+    pageIndex: 1
+    pageSize: 20
+  - code: 9999
+    message: "check_accessToken_fail"
+-
+  - __userId: 10247
+    pageIndex:
+    pageSize: 20
+  - code: 500
+    message: "field pageIndex is not set"
+-
+  - __userId: 10247
+    pageIndex: 1
+    pageSize:
+  - code: 500
+    message: "field pageSize is not set"
+
+
+test_06:
+-
+  - __userId: 10247
+  - code: 0
+    records: ["status": 0]
+-
+  - __userId:
+  - code: 9999
+    message: "check_accessToken_fail"
+
+
+test_07:
+-
+  - __userId: 10247
+  - code: 0
+    prepare_total: "Rp6.454"
+-
+  - __userId:
+  - code: 9999
+    message: "check_accessToken_fail"
+
+
+test_08:
+-
+  - __userId: 10247
+  - code: 0
+-
+  - __userId:
+  - code: 9999
+    message: "check_accessToken_fail"

@@ -1,0 +1,90 @@
+
+
+test_01:
+-
+  - platform: ""
+    keyword: ""
+    pageIndex:
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: ""
+    pageIndex:
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: ""
+    keyword: "Iphone"
+    pageIndex:
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: "Iphone"
+    pageIndex:
+    pageSize: 20
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: "Iphone"
+    pageIndex: 1
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: "Iphone"
+    pageIndex: 1
+    pageSize: 20
+  - code: 0
+    message: "Success"
+
+
+test_03:
+-
+  - platform: ""
+    keyword: ""
+    pageIndex:
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: ""
+    pageIndex:
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: ""
+    keyword: "Iphone"
+    pageIndex:
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: "Iphone"
+    pageIndex:
+    pageSize: 20
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: "Iphone"
+    pageIndex: 1
+    pageSize:
+  - code: 0
+    message: "Success"
+-
+  - platform: "lazada"
+    keyword: "Iphone"
+    pageIndex: 1
+    pageSize: 20
+  - code: 0
+    message: "Success"
